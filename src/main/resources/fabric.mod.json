@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tomorrow-x-together-mod",
+	"version": "${version}",
+	"name": "Tomorrow X Together (TXT) Mod",
+	"description": "This is a Tomorrow X Together (TXT) inspired mod made by RedStar3925 (A.K.A Aliwtaptap or Patys).",
+	"authors": [
+		"Patricia Ysabelle C. Baterina"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tomorrow-x-together-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.patys.txtmod.TomorrowXTogetherTXTMod"
+		],
+		"client": [
+			"net.patys.txtmod.TomorrowXTogetherTXTModClient"
+		],
+		"fabric-datagen": [
+			"net.patys.txtmod.TomorrowXTogetherTXTModDataGenerator"
+		]
+	},
+	"mixins": [
+		"tomorrow-x-together-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
