@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tomorrow-x-together-mod:block/moabong1_block"
+  }
+}

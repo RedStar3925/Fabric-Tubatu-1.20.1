@@ -2,6 +2,7 @@ package net.patys.txtmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.patys.txtmod.block.ModBlocks;
 import net.patys.txtmod.item.ModItemGroups;
 import net.patys.txtmod.item.ModItems;
 import org.slf4j.Logger;
@@ -15,6 +16,8 @@ public class TomorrowXTogetherTXTMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.patys.txtmod.TomorrowXTogetherTXTMod;
+import net.patys.txtmod.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -18,6 +19,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.LIGHTSTICK1)).entries((displayContext, entries) -> {
                         entries.add(ModItems.LIGHTSTICK1);
                         entries.add(ModItems.LIGHTSTICK2);
+                        entries.add(ModBlocks.LIGHTSTICK1_BLOCK);
 
                     }).build());
 
