@@ -13,8 +13,8 @@ import net.patys.txtmod.TomorrowXTogetherTXTMod;
 
 public class ModBlocks {
 
-    public static final Block LIGHTSTICK1_BLOCK = registerBlock("moabong1_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.TORCH)));
+    public static final Block NOAS_BLOCK = registerBlock("noas_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.SEA_LANTERN)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItems(name, block);

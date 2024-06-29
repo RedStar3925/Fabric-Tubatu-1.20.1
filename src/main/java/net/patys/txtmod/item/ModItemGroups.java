@@ -19,7 +19,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.LIGHTSTICK1)).entries((displayContext, entries) -> {
                         entries.add(ModItems.LIGHTSTICK1);
                         entries.add(ModItems.LIGHTSTICK2);
-                        entries.add(ModBlocks.LIGHTSTICK1_BLOCK);
+                        entries.add(ModBlocks.NOAS_BLOCK);
 
                     }).build());
 
